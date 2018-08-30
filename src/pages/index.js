@@ -6,6 +6,8 @@ import Waypoint from 'react-waypoint'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
+import pier from '../assets/images/pier.png';
+import daiku from '../assets/images/daiku.png';
 
 class Index extends React.Component {
   constructor(props) {
@@ -66,34 +68,34 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major fa-mobile"></span>
+                <span className="icon major style1 fa-mobile"></span>
                 <h3>Bootstrapping</h3>
                 <p>Todo lo necesario para arrancar una app: gestor de dependencias, customización de UI, integración continúa y un largo etcétera.</p>
               </li>
               <li>
-                <span className="icon major fa-expand"></span>
+                <span className="icon major style4 fa-expand"></span>
                 <h3>Autolayout y Size Classes</h3>
                 <p>Con pantallas que van desde 4’ a 12.9’ y con contenido flexible, nunca ha sido tan importante escribir buen layout.</p>
               </li>
               <li>
-                <span className="icon major fa-spinner"></span>
+                <span className="icon major style2 fa-spinner"></span>
                 <h3>Stateful View Controllers</h3>
                 <p>Con esta técnica, será más fácil manejar la complejidad en un ViewController en escenarios donde los datos se obtienen de forma asíncrona.</p>
               </li>
               <li>
-                <span className="icon major fa-cloud-download"></span>
+                <span className="icon major style3 fa-cloud-download"></span>
                 <h3>Networking Avanzado</h3>
                 <p>Usaremos capacidades de Swift, como extensiones de protocolos, genéricos y enums para tener una capa de networking mas legible.</p>
               </li>
               <li>
-                <span className="icon major fa-gift"></span>
+                <span className="icon major style5 fa-gift"></span>
                 <h3>Promises</h3>
                 <p>En esta sección aprenderás una técnica para eliminar bugs producidos por threading y poder realizar una serie de peticiones a la web antes de presentarle el resultado al usuario.</p>
               </li>
               <li>
-                <span className="icon major fa-file-text-o"></span>
+                <span className="icon major style3 fa-file-text-o"></span>
                 <h3>Formularios</h3>
-                <p>Levante la mano a quién le guste hacerlos. ¿Nadie? Eso pensaba 😄. No pasa nada, aprenderemos cómo hacerlos de forma sencilla y totalmente desacoplada de la vista y testeado.</p>
+                <p>Que levante la mano a quién le guste hacerlos. ¿Nadie? Eso pensaba 😄. No pasa nada, aprenderemos cómo hacerlos de forma sencilla y totalmente desacoplada de la vista y testeado.</p>
               </li>
               <li>
                 <span className="icon major style1 fa-database"></span>
@@ -118,7 +120,47 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="professors" className="main special">
+          <section id="professors" className="main">
+            <div className="professors">
+              <header className="major">
+                <h2>Professores</h2>
+              </header>
+              <div className="columnsProfessor">
+                <div className="professor">
+                  <span className="image"><img src={pier} alt="" /></span>
+                  <div className="content">
+                    <h2>Pierluigi Cifani</h2>
+                    <p>
+                      Especializado en construir apps nativas de iOS desde el 2011.
+                      Desde hace un año trabaja como freelance realizando auditorías, mejoras y coaching a los equipos de compañías detrás de apps como Oysho, Privalia, LiveScore entre otras.
+                      Cree en la capacidad de la gente de mejorar y los resultados (por ahora) le dan la razón.
+                    </p>
+                  </div>
+                </div>
+                <div className="professor">
+                  <span className="image"><img src={daiku} alt="" /></span>
+                  <div className="content">
+                    <h2>Jordi Serra</h2>
+                    <p>
+                      Desarrollador de apps desde 2010 en Visual Engineering.
+                      Ha desarrollado apps principalmente en iOS, pero también en Android y React Native.
+                      Cree fírmemente que el código se escribe para las personas, no para las máquinas
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="where" className="main">
+            <div className="where-section">
+              <div className="where">
+                <span className="icon fa-code-fork"></span>
+              </div>
+            </div>
+          </section>
+
+          <section id="alala" className="main special">
             <header className="major">
               <h2>Ipsum consequat</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
