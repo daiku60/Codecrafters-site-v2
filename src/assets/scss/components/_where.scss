@@ -1,10 +1,11 @@
-
-
-
 .where-section {
-
-
-  .icon {
+  .content {
+    @include vendor('display', 'flex');
+    @include vendor('flex-direction', 'row');
+    
+    div.text {
+      margin-left: 2em;
+    }
     
   }
 }
