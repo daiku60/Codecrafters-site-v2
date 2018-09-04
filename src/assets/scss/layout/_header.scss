@@ -7,8 +7,12 @@
 /* Header */
 
 	#header {
+		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'column');
 		@include padding(5em, 5em, (0, 0, -2em, 0));
 		text-align: center;
+		// height: 30em;
+		margin: 10em 0 10em 0;
 
 		h1 {
 			margin: 0 0 (_size(element-margin) * 0.125) 0;
@@ -44,7 +48,7 @@
 				img {
 					display: block;
 					margin: 0 auto;
-					max-width: 15em;
+					max-width: 60%;
 				}
 			}
 		}

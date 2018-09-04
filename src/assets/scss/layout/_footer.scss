@@ -11,25 +11,52 @@
 		@include vendor('flex-wrap', 'wrap');
 		@include padding(5em, 5em);
 
-		.row {
+		.content {
 			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'column');
+			@include vendor('flex-direction', 'row');
+			@include vendor('justify-content', 'space-around');
+			@include vendor('align-items', 'center');
 			
-			.colm {
+			.row {
 				@include vendor('display', 'flex');
-				@include vendor('align-items', 'center');
-				@include vendor('flex-direction', 'row');
+				@include vendor('flex-direction', 'column');
 
-				margin-bottom: 1em;
+				margin-left: 2em;
+				
+				.colm {
+					@include vendor('display', 'flex');
+					@include vendor('align-items', 'center');
+					@include vendor('flex-direction', 'row');
 
-				.text {
-					margin-left: 1em;
+					margin-bottom: 1em;
+
+					.text {
+						@include vendor('display', 'flex');
+						@include vendor('flex-direction', 'column');
+						margin-left: 1em;
+					}
 				}
 			}
-		}
 
-		dt {
-			margin-bottom: 1em;
+			dt {
+				margin-bottom: 1em;
+			}
+
+			.logoend {
+				@include vendor('transition', (
+					'opacity 1.25s ease',
+					'transform 0.5s ease'
+				));
+				@include vendor('transition-delay', '0s');
+				// display: block;
+				margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+				img {
+					display: inline-block;
+					margin: 0 0 0 0;
+					width: 18em;
+				}
+			}
 		}
 
 		.copyright {
@@ -61,6 +88,10 @@
 
 		@include breakpoint(small) {
 			@include padding(3em, 2em);
+
+			.content {
+				@include vendor('flex-direction', 'column');
+			}
 		}
 
 		@include breakpoint(xsmall) {

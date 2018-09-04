@@ -27,7 +27,7 @@
 		background-color: _palette(fg-bold);
 		@include vendor('background', (
 			'url("../images/bg-pattern.png")',
-			'linear-gradient(45deg, #{_palette(cc-red)} 15%, #{_palette(bg) 85%})',
+			'linear-gradient(45deg, #{_palette(bg)} 15%, #{_palette(cc-red) 85%})',
 		));
 
 		// Prevents animation/transition "flicker" on page load.

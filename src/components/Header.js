@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logocc from '../assets/images/logocc.png';
+import logocc from '../assets/images/codecrafters-lettering.png';
 
 const Header = (props) => (
     <header id="header" className="alt">
