@@ -26,11 +26,6 @@ const Nav = (props) => (
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="contact">
-                    <a href="#">Contacto</a>
-                </Scroll>
-            </li>
-            <li>
                 <Scroll type="id" element="signin">
                     <a href="#">Inscríbete</a>
                 </Scroll>
