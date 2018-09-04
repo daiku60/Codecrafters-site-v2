@@ -1,13 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-import logo from '../assets/images/logo.svg';
+import logocc from '../assets/images/logocc.png';
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <span className="logo"><img src={logo} alt="" /></span>
-        <h1>CodeCrafters.io</h1>
-        <p>Conviértete en el programador de iOS que siempre has querido ser.</p>
+        <span className="logo">
+            <img src={logocc} alt="" />
+        </span>
+        <h2>Conviértete en el programador de iOS que siempre has querido ser.</h2>
     </header>
 )
 

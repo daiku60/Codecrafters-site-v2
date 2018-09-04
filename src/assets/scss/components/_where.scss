@@ -1,4 +1,9 @@
 .where-section {
+  header {
+    &.major {
+      align-self: center;
+    }
+  }
   .content {
     @include vendor('display', 'flex');
     @include vendor('flex-direction', 'row');

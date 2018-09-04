@@ -6,6 +6,15 @@
 
 /* Spotlight */
 
+	section#what {
+		@include vendor('background-image', 'url("../images/cc_fun.jpg")');
+		background-size: cover;
+
+		h1, h2, h3, h4, h5, h6, p, blockquote, a {
+			color: white;
+		}
+	}
+
 	.spotlight {
 		@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');

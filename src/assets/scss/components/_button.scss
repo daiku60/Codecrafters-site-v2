@@ -87,16 +87,16 @@
 			}
 
 			&.special {
-				background-color: _palette(accent);
+				background-color: _palette(cc-violet);
 				color: _palette(invert, bg) !important;
 				box-shadow: none;
 
 				&:hover {
-					background-color: lighten(_palette(accent), 3);
+					background-color: lighten(_palette(cc-violet), 3);
 				}
 
 				&:active {
-					background-color: darken(_palette(accent), 3);
+					background-color: darken(_palette(cc-violet), 3);
 				}
 
 				&.icon {

@@ -54,10 +54,5 @@ export default () => (
         <p>Todo proyecto requiere habilidades de gestión y humanas. Repasaremos las principales prácticas para ser un lider efectivo en un entorno de desarrollo.</p>
       </li>
     </ul>
-    <footer className="major">
-      <ul className="actions">
-        <li><Link to="/generic" className="button">Learn More</Link></li>
-      </ul>
-    </footer>
   </div>
 );

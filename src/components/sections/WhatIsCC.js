@@ -14,10 +14,6 @@ export default () => (
       <h3>¿Para quién es?</h3>
       <p>El curso está dirigido a profesionales de 1 a 3 años de experiencia en las plataformas de Apple. El contenido está enfocado a que este público pueda dar un salto adelante en su carrera.</p>
       <blockquote>Sé el desarrollador TOP que siempre soñaste ser.</blockquote>
-      <ul className="actions">
-        <li><Link to="/generic" className="button">Learn More</Link></li>
-      </ul>
     </div>
-    <span className="image"><img src={pic01} alt="" /></span>
   </div>
 );
