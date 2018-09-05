@@ -11,8 +11,8 @@ export default () => (
     </header>
     <footer className="major">
       <ul className="actions">
-        <li><Link to="/generic" className="button">Contáctanos</Link></li>
-        <li><Link to="/generic" className="button special">Inscríbete</Link></li>
+        <li><a href="mailto:pcifani@theleftbit.com" className="button">Contáctanos</a></li>
+        <li><Link to="#" className="button special">Inscríbete</Link></li>
       </ul>
     </footer>
   </div>

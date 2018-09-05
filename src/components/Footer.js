@@ -26,7 +26,7 @@ const Footer = props => (
               <div className="text">(+34) 622 447 302</div>
             </div>
             <div className="colm">
-              <a href="mailto:pcifani@blurredsoftware.com" className="icon fa-envelope alt" />
+              <a href="mailto:pcifani@theleftbit.com" className="icon fa-envelope alt" />
               <div className="text">pcifani@blurredsoftware.com</div>
             </div>
             <div className="colm">
