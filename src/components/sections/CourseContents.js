@@ -5,7 +5,7 @@ export default () => (
   <div>
     <header className="major">
       <h2>Contenido</h2>
-      <p>Estos son los temas que consideramos primordiales para escribir apps modernas para iOS 11. Explicaremos a fondo las bases teóricas y como aplicarlas en la app que desarrollaremos en clase.</p>
+      <p>Estos son los temas que consideramos primordiales para escribir apps modernas para iOS 12. Explicaremos a fondo las bases teóricas y como aplicarlas en la app que desarrollaremos en clase.</p>
     </header>
     <ul className="features">
       <li>
