@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "CodeCrafters.io",
+    author: "Jordi Serra",
+    description: "Conviértete en el desarrollador TOP que siempre soñaste ser"
   },
   pathPrefix: '/Codecrafters-site-v2',
   plugins: [
