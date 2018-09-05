@@ -4,7 +4,7 @@ module.exports = {
     author: "Hunter Chang",
     description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
   },
-  pathPrefix: '/',
+  pathPrefix: '/Codecrafters-site-v2',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
